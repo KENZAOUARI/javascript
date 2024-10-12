@@ -39,16 +39,61 @@
           else{
             console.log("la valeur ou bien le type est déffirent");
           }
-      //switch(key){
+    var day
+      switch(new Date().getDay() ){
+            case 0: 
+              day="dimanche";
+            break;
+            case 1:
+              day="lundi";
+            break;
+            case 2:
+              day="mardi"
+            break;
+            case 3:
+              day="mercredi"
+            break;
+            case 4:
+              day="jeudi"
+            break;
+            case 5:
+              day="vendredi"
+            break;
+            case 6:
+              day="samedi"
+            break;
+            default:
+                day="inconnu"
+            break;
 
+      }
 
-      //}//
+    console.log(day);
+  
+  var couleur
 
-
-
-
-
+    switch(couleur){
+      case couleur="rouge":
+        console.log("arretez le feu rouge");
+      break;
+      case couleur="orange":
+        console.log("attention le feu est orange");
+      break;
+      case couleur="vert":
+        console.log("allez y le feu est vert");
+      break;
+      default :
+        console.log("couleur inconnu");
+      break;
         
+
+    }
+
+
+
+
+
+
 
     </script>
     
