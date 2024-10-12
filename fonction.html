@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fonction</title>
+</head>
+<body>
+    <script>
+    //fonction salutation
+        function salutation(){
+            console.log("bonjour");
+        }
+        salutation();
+    // fonction somme    
+        function somme(nombre1,nombre2){
+            return nombre1+nombre2;
+        }
+        console.log('somme est :',somme(5,5));
+    //fonction de parité
+        function parité(valeu){
+            if (valeu  % 2=== 0){
+               console.log("la valeur est pair");
+            }else
+              {
+               console.log("la valeur est impair");
+              }
+        }
+        console.log(parité(5));
+    //conditions ternaires
+    function parity(valeu){
+        return(valeu % 2=== 0 )?console.log("la valeur est pair"):console.log("la valeur est impair");
+    }
+    console.log(parité(2));
+
+    //fonction de nombre 
+    function incrémente(nombre){
+        return nombre+1;
+    }
+    console.log("incrémente de nombre égale :" +incrémente(5));
+    </script>
+   
+</body>
+</html>
